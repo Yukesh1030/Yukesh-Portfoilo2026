@@ -42,12 +42,13 @@ const Navbar = () => {
           Yukesh<span>.G</span>
         </NavLink>
 
-        <ul className="nav-links">
+        <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
           {navItems.map((item) => (
             <li key={item.name}>
               <NavLink 
                 to={item.path} 
                 className={({ isActive }) => `nav-link ${isActive || (location.pathname === item.path) ? 'active' : ''}`}
+                onClick={() => setIsMobileMenuOpen(false)}
               >
                 {item.name}
               </NavLink>
