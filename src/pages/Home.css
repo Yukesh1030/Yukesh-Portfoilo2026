@@ -414,7 +414,7 @@
 }
 
 @media (max-width: 992px) {
-  .hero-grid, .about-grid, .skills-grid {
+  .hero-grid, .about-grid, .skills-grid, .projects-grid, .journey-grid {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
