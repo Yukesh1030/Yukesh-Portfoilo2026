@@ -31,11 +31,14 @@ jobs:
       - name: Install project packages
         run: npm ci
 
+      - name: Prepare GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - name: Build website
         run: npm run build
-
-      - name: Prepare GitHub Pages
-        uses: actions/configure-pages@v5
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
