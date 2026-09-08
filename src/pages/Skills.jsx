@@ -8,7 +8,7 @@ const Skills = () => {
   }, []);
 
   const frontendSkills = ['React JS', 'JavaScript', 'HTML', 'CSS'];
-  const backendSkills = ['Java', 'Python', 'Django', 'MySQL', 'C/C++'];
+  const backendSkills = ['Java', 'Python', 'Django', 'MySQL', 'FastAPI','C','C++',];
   const aiSkills = ['Prompt Engineering', 'RAG', 'LangChain', 'LangGraph', 'ChromaDB', 'CrewAI', 'MCP', 'Fine-Tuning', 'LoRA', 'QLoRA', 'Fine Tuning Llama', 'Production AI'];
   const tools = ['Git'];
   const learning = ['OOP', 'Data Structures & Algorithms', 'Software Testing', 'Agile Development', 'SDLC'];

@@ -181,7 +181,7 @@ const Home = () => {
             <div className="card skill-category" data-aos="fade-up" data-aos-delay="200">
               <h3>Backend</h3>
               <div className="skill-tags">
-                {['Java', 'Spring Boot', 'REST APIs', 'MySQL'].map(skill => (
+                {['Java', 'FastAPI', 'REST APIs', 'MySQL'].map(skill => (
                   <span key={skill} className="skill-tag">{skill}</span>
                 ))}
               </div>
