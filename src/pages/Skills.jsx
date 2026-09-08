@@ -25,6 +25,8 @@ const Skills = () => {
     <div className="page-container" style={{ paddingTop: '100px' }}>
       {/* 1. Hero */}
       <section className="section">
+        <div className="bg-grid"></div>
+        <div className="glow-circle" style={{ top: '20%', right: '10%' }}></div>
         <div className="container text-center">
           <h1 className="heading-lg" data-aos="fade-up">Technical <span>Skills</span></h1>
           <p className="mt-4 text-gray-400" data-aos="fade-up" data-aos-delay="200">
