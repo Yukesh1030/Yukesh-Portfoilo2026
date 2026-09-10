@@ -450,6 +450,7 @@
 
   .hero-cta {
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .hero-socials {
@@ -465,5 +466,22 @@
   .hero-image {
     width: 260px;
     height: 260px;
+  }
+  
+  .hero-cta {
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .hero-cta .btn {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.9rem;
+    flex: 1;
+    min-width: 140px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
   }
 }
