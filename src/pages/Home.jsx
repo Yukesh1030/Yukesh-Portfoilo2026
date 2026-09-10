@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Home.css';
-import profileImg from '../assets/profile-image.png';
+import profileImg from '../assets/final pro -1mb.jpg';
 import aboutImg from '../assets/9ae79506c718899f9c11e56dfb826a1e.jpg';
 import aiChatbotImg from '../assets/AI Chatbot.png';
 import rationShopImg from '../assets/Ration Shop Management.png';
